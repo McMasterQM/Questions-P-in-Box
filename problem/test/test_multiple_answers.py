@@ -25,7 +25,7 @@ score = 0
 answer = '**Answer'
 
 path = os.getcwd()
-with open(os.path.join(path, 'problem', 'SQuestionsPinBox.py'), 'r') as f:
+with open(os.path.join(path, 'problem', 'QuestionsPinBox.py'), 'r') as f:
     for line in f.readlines():
         if answer in line:
 
